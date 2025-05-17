@@ -3,10 +3,10 @@ from coffee import Coffee
 from order import Order
 
 if __name__ == "__main__":
-    c1 = Customer("Alice")
-    c2 = Customer("Bob")
+    c1 = Customer("Charity")
+    c2 = Customer("Kelly")
     
-    cof1 = Coffee("Latte")
+    cof1 = Coffee("Black Coffee")
     cof2 = Coffee("Cappuccino")
     
     o1 = Order(c1, cof1, 5.0)
